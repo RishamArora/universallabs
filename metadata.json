@@ -1,0 +1,7 @@
+{
+  "name": "Universal Diagnostics",
+  "description": "Universal Diagnostics - Your Personal Relationship with Medical Excellence. Premium medical imaging and laboratory services.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
