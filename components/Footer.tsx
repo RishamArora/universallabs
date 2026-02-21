@@ -11,6 +11,7 @@ const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-1">
             <div className="flex flex-col items-start gap-4 mb-8">
               <Logo className="invert" size={30} />
+              <p className="text-slate-400 text-m leading-relaxed font-bold">A Unit of Shiva Diagnostics</p>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed font-medium">
               Pioneering a personal relationship with medical excellence. Providing premium diagnostic care since 2018.

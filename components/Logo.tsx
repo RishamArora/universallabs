@@ -11,8 +11,8 @@ const Logo: React.FC<LogoProps> = ({ className = "", size = 40 }) => {
     <div className={`flex flex-col items-center ${className}`}>
       <div className="relative" style={{ width: size * 1.5, height: size * 1.5 }}>
         {/* Slogan Arc - Simplified for UI integration */}
-        <svg viewBox="0 0 200 100" className="absolute -top-6 left-1/2 -translate-x-1/2 w-[180%] h-auto">
-          <path id="curve" d="M 20 80 A 80 80 0 0 1 180 80" fill="transparent" />
+        <svg viewBox="0 0 300 300" className="absolute -top-6 left-1/2 -translate-x-1/2 w-[180%] h-auto">
+          <path id="curve" d="M 0 0 A 0 0 0 0 0 0 0" fill="transparent" />
           <text className="text-[10px] font-bold fill-slate-700 uppercase tracking-tighter">
             <textPath href="#curve" startOffset="50%" textAnchor="middle">
               Personal Relationship with Medical Excellence
