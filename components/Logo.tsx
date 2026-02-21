@@ -9,16 +9,8 @@ interface LogoProps {
 const Logo: React.FC<LogoProps> = ({ className = "", size = 40 }) => {
   return (
     <div className={`flex flex-col items-center ${className}`}>
-      <div className="relative" style={{ width: size * 1.5, height: size * 1.5 }}>
-        {/* Slogan Arc - Simplified for UI integration */}
-        <svg viewBox="0 0 300 300" className="absolute -top-6 left-1/2 -translate-x-1/2 w-[180%] h-auto">
-          <path id="curve" d="M 0 0 A 0 0 0 0 0 0 0" fill="transparent" />
-          <text className="text-[10px] font-bold fill-slate-700 uppercase tracking-tighter">
-            <textPath href="#curve" startOffset="50%" textAnchor="middle">
-              Personal Relationship with Medical Excellence
-            </textPath>
-          </text>
-        </svg>
+
+      <div className="relative" style={{ width: size*1.35, height: size*1.35 }}>
 
         {/* Atom Symbol */}
         <svg viewBox="0 0 100 100" className="w-full h-full">
@@ -36,7 +28,8 @@ const Logo: React.FC<LogoProps> = ({ className = "", size = 40 }) => {
           <circle cx="30" cy="85" r="3" fill="#00aeef" />
         </svg>
       </div>
-      <span className="text-2xl font-black text-[#2d3269] tracking-[0.15em] uppercase -mt-2">Universal</span>
+      <span className="text-xl font-black text-[#2d3269] tracking-[0.15em] uppercase -mt-2">Universal</span>
+       <span className="text-xs font-black text-[#2d3269] tracking-[0.08em] uppercase -mt-[2px]">A Unit of Shiva Diagnostics</span>
     </div>
   );
 };

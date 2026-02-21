@@ -14,9 +14,10 @@ const Home: React.FC = () => {
               <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-blue-50 text-[#2d3269] text-xs font-bold mb-6 tracking-widest uppercase border border-blue-100">
                 <span>Personal Relationship With Medical Excellence</span>
               </div>
-              <h1 className="text-4xl tracking-tight font-black text-[#2d3269] sm:text-5xl md:text-7xl mb-6 uppercase">
+              <h1 className="text-4xl tracking-tight font-black text-[#2d3269] sm:text-4xl md:text-5xl mb-6 uppercase">
                 <span className="block">Universal</span>
                 <span className="block text-[#00aeef]">Diagnostics</span>
+                <span className="text-2xl block">A unit of Shiva Diagnostics</span>
               </h1>
               <p className="text-base text-slate-500 sm:text-lg md:text-xl md:max-w-xl leading-relaxed mb-10">
                 A personal relationship with medical excellence. Experience precision diagnostic services with top-tier radiologists and the most advanced imaging technology in the region.
@@ -112,7 +113,6 @@ const Home: React.FC = () => {
                   </div>
                   <div>
                     <div className="font-black uppercase tracking-widest text-white">{t.name}</div>
-                    <div className="text-xs font-bold text-blue-300 uppercase tracking-tighter">{t.role}</div>
                   </div>
                 </div>
               </div>
